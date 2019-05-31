@@ -1,0 +1,15 @@
+{
+  "name": "m4numbers-eslint",
+  "version": "1.0.0",
+  "description": "An eslint collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "style"
+  ],
+  "author": "M4Numbers <m4numbers@gmail.com>",
+  "license": "MIT"
+}
