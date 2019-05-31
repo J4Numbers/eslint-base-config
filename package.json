@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "An eslint collection",
   "main": "index.js",
+  "homepage": "https://github.com/J4Numbers/eslint-base-config#readme",
+  "bugs": {
+    "url": "https://github.com/J4Numbers/eslint-base-config/issues",
+    "email": "j4numbers@gmail.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +15,10 @@
     "eslint",
     "style"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/J4Numbers/eslint-base-config.git"
+  },
   "author": "J4Numbers <j4numbers@gmail.com>",
   "license": "MIT"
 }
