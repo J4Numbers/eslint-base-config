@@ -1,5 +1,5 @@
 {
-  "name": "j4numbers-eslint",
+  "name": "@j4numbers/eslint-base-config",
   "version": "1.0.0",
   "description": "An eslint collection",
   "main": "index.js",
