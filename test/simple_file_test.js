@@ -14,3 +14,7 @@ asyncTestFunction()
   .then((result) => {
     console.log(result);
   });
+
+const testFunctionToo = (object) => {
+  object.test = 'new value';
+};
