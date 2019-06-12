@@ -8,6 +8,14 @@
     "url": "https://github.com/M4Numbers/eslint-base-config/issues",
     "email": "m4numbers@gmail.com"
   },
+  "files": [
+    ".eslintrc.js",
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
   "scripts": {
     "test": "eslint ."
   },
