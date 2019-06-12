@@ -1,6 +1,6 @@
 {
   "name": "@m4numbers/eslint-base-config",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "An eslint collection",
   "main": "index.js",
   "homepage": "https://github.com/M4Numbers/eslint-base-config#readme",
@@ -8,6 +8,14 @@
     "url": "https://github.com/M4Numbers/eslint-base-config/issues",
     "email": "m4numbers@gmail.com"
   },
+  "files": [
+    ".eslintrc.js",
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
   "scripts": {
     "test": "eslint ."
   },
