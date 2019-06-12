@@ -69,7 +69,7 @@ module.exports = {
     'no-new-object': [ 'error' ],
     'no-new-require': [ 'error' ],
     'no-octal-escape': [ 'error' ],
-    'no-param-reassign': [ 'error', { 'props': true } ],
+    'no-param-reassign': [ 'error', { 'props': false } ],
     'no-path-concat': [ 'error' ],
     'no-return-assign': [ 'warn' ],
     'no-return-await': [ 'error' ],
