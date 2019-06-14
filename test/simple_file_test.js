@@ -18,3 +18,10 @@ asyncTestFunction()
 const testFunctionToo = (object) => {
   object.test = 'new value';
 };
+
+const testVar = {
+  test_var:   testFunctionToo,
+  async_test: asyncTestFunction,
+};
+
+console.log(testVar.length);
