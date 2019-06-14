@@ -22,7 +22,7 @@ module.exports = {
     'block-spacing': [ 'error', 'always' ],
     'brace-style': [ 'error', '1tbs' ],
     'class-methods-use-this': ['warn'],
-    'camelcase': [ 'error' ],
+    'camelcase': [ 'error', { 'properties': 'never' } ],
     'comma-dangle': [ 'error', 'always-multiline' ],
     'comma-spacing': [ 'error' ],
     'comma-style': [ 'error', 'last' ],
