@@ -47,7 +47,7 @@ module.exports = {
     'linebreak-style': [ 'error', 'unix' ],
     'lines-between-class-members': [ 'error', 'always' ],
     'max-classes-per-file': [ 'error', 1 ],
-    'max-len': [ 'error', { 'code': 80 } ],
+    'max-len': [ 'error', { 'code': 100 } ],
     'max-statements-per-line': [ 'error' ],
     'multiline-comment-style': [ 'error', 'separate-lines' ],
     'no-buffer-constructor': [ 'error' ],
