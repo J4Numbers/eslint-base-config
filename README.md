@@ -1,6 +1,6 @@
-# @m4numbers/eslint-base-config
+# @j4numbers/eslint-base-config
 
-This project contains the base configuration that I, M4Numbers, personally
+This project contains the base configuration that I, J4Numbers, personally
 use when developing in NodeJS. This means that a lot of this is very
 opinionated towards my personal development style and towards what I think
 looks nice within code.
@@ -13,11 +13,11 @@ every time I start a new project so... yeah.
 To use this project, perform the following command:
 
 ```bash
-npm i --save-dev @m4numbers/eslint-base-config
+npm i --save-dev @j4numbers/eslint-base-config
 ```
 
 Then create a file called `.eslintrc.js` and fill it with the following:
 
 ```js
-module.exports = require('@m4numbers/eslint-base-config');
+module.exports = require('@j4numbers/eslint-base-config');
 ```
