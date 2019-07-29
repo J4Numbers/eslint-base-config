@@ -1,6 +1,6 @@
 {
   "name": "@j4numbers/eslint-base-config",
-  "version": "1.1.7-SNAPSHOT",
+  "version": "1.1.7",
   "description": "An eslint collection",
   "main": "index.js",
   "homepage": "https://github.com/J4Numbers/eslint-base-config#readme",
