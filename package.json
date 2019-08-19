@@ -6,7 +6,7 @@
   "homepage": "https://github.com/J4Numbers/eslint-base-config#readme",
   "bugs": {
     "url": "https://github.com/J4Numbers/eslint-base-config/issues",
-    "email": "m4numbers@gmail.com"
+    "email": "j4numbers@gmail.com"
   },
   "files": [
     ".eslintrc.js",
