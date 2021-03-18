@@ -1,12 +1,12 @@
 {
   "name": "@j4numbers/eslint-base-config",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "An eslint collection",
   "main": "index.js",
   "homepage": "https://github.com/J4Numbers/eslint-base-config#readme",
   "bugs": {
     "url": "https://github.com/J4Numbers/eslint-base-config/issues",
-    "email": "m4numbers@gmail.com"
+    "email": "j4numbers@gmail.com"
   },
   "files": [
     ".eslintrc.js",
@@ -30,6 +30,6 @@
   "author": "J4Numbers <j4numbers@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^7.22.0"
   }
 }
