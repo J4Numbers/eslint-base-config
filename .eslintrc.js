@@ -41,7 +41,7 @@ module.exports = {
     'handle-callback-err': [ 'error' ],
     'implicit-arrow-linebreak': [ 'error', 'beside' ],
     'indent': [ 'error', 2, { 'SwitchCase': 1 } ],
-    'key-spacing': [ 'error', { 'mode': 'minimum', 'align': 'value' } ],
+    'key-spacing': [ 'error', { 'mode': 'minimum' } ],
     'keyword-spacing': [ 'error' ],
     'line-comment-position': [ 'error', { 'position': 'above', 'ignorePattern': 'todo|fixme' } ],
     'linebreak-style': [ 'error', 'unix' ],

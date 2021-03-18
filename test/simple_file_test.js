@@ -20,7 +20,7 @@ const testFunctionToo = (object) => {
 };
 
 const testVar = {
-  test_var:   testFunctionToo,
+  test_var: testFunctionToo,
   async_test: asyncTestFunction,
 };
 
