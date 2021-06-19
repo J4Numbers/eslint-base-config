@@ -4,8 +4,11 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created, published, released, edited]
+  push:
+    tags:
+      - '*'
+    tags-ignore:
+      - '*-beta*'
 
 jobs:
   build:
