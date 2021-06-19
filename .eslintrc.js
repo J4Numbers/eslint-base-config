@@ -2,15 +2,15 @@ module.exports = {
   'env': {
     'commonjs': true,
     'es6': true,
-    'node': true
+    'node': true,
   },
   'extends': 'eslint:recommended',
   'globals': {
     'Atomics': 'readonly',
-    'SharedArrayBuffer': 'readonly'
+    'SharedArrayBuffer': 'readonly',
   },
   'parserOptions': {
-    'ecmaVersion': 2018
+    'ecmaVersion': 2018,
   },
   'rules': {
     'array-bracket-newline': [ 'error', 'consistent' ],
@@ -18,10 +18,13 @@ module.exports = {
     'array-element-newline': [ 'error', 'consistent' ],
     'arrow-body-style': [ 'error', 'as-needed' ],
     'arrow-parens': [ 'error', 'always' ],
-    'arrow-spacing': [ 'error', { 'before': true, 'after': true } ],
+    'arrow-spacing': [ 'error', {
+      'before': true,
+      'after': true,
+    } ],
     'block-spacing': [ 'error', 'always' ],
     'brace-style': [ 'error', '1tbs' ],
-    'class-methods-use-this': ['warn'],
+    'class-methods-use-this': [ 'warn' ],
     'camelcase': [ 'error', { 'properties': 'never' } ],
     'comma-dangle': [ 'error', 'always-multiline' ],
     'comma-spacing': [ 'error' ],
@@ -43,7 +46,10 @@ module.exports = {
     'indent': [ 'error', 2, { 'SwitchCase': 1 } ],
     'key-spacing': [ 'error', { 'mode': 'minimum' } ],
     'keyword-spacing': [ 'error' ],
-    'line-comment-position': [ 'error', { 'position': 'above', 'ignorePattern': 'todo|fixme' } ],
+    'line-comment-position': [ 'error', {
+      'position': 'above',
+      'ignorePattern': 'todo|fixme',
+    } ],
     'linebreak-style': [ 'error', 'unix' ],
     'lines-between-class-members': [ 'error', 'always' ],
     'max-classes-per-file': [ 'error', 1 ],
@@ -61,9 +67,16 @@ module.exports = {
     'no-invalid-this': [ 'error' ],
     'no-mixed-operators': [ 'error' ],
     'no-multi-assign': [ 'error' ],
-    'no-multi-spaces': [ 'error', { 'exceptions': { 'Property': true }, 'ignoreEOLComments': true } ],
+    'no-multi-spaces': [ 'error', {
+      'exceptions': { 'Property': true },
+      'ignoreEOLComments': true,
+    } ],
     'no-multi-str': [ 'error' ],
-    'no-multiple-empty-lines': [ 'error', { 'max': 2, 'maxBOF': 1, 'maxEOF': 1 } ],
+    'no-multiple-empty-lines': [ 'error', {
+      'max': 2,
+      'maxBOF': 1,
+      'maxEOF': 1,
+    } ],
     'no-nested-ternary': [ 'error' ],
     'no-new': [ 'error' ],
     'no-new-object': [ 'error' ],
@@ -86,7 +99,10 @@ module.exports = {
     'no-useless-concat': [ 'error' ],
     'no-useless-return': [ 'warn' ],
     'no-var': [ 'error' ],
-    'no-warning-comments': [ 'warn', { 'terms': [ 'todo', 'fixme' ], 'location': 'start' } ],
+    'no-warning-comments': [ 'warn', {
+      'terms': [ 'todo', 'fixme' ],
+      'location': 'start',
+    } ],
     'no-whitespace-before-property': [ 'error' ],
     'object-curly-newline': [ 'error' ],
     'object-curly-spacing': [ 'error', 'always' ],
@@ -109,11 +125,14 @@ module.exports = {
     'space-before-function-paren': [ 'error', 'always' ],
     'space-in-parens': [ 'error', 'never' ],
     'space-infix-ops': [ 'error' ],
-    'space-unary-ops': [ 'error', { 'words': true, 'nonwords': false } ],
+    'space-unary-ops': [ 'error', {
+      'words': true,
+      'nonwords': false,
+    } ],
     'spaced-comment': [ 'error', 'always' ],
     'switch-colon-spacing': [ 'error' ],
     'template-curly-spacing': [ 'error' ],
     'unicode-bom': [ 'error', 'never' ],
     'wrap-regex': [ 'error' ],
-  }
+  },
 };
