@@ -30,6 +30,6 @@
   "author": "J4Numbers <j4numbers@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.29.0"
+    "eslint": "^8.1.0"
   }
 }

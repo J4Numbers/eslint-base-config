@@ -38,7 +38,7 @@ module.exports = {
     'eqeqeq': [ 'error', 'always' ],
     'func-call-spacing': [ 'error', 'never' ],
     'func-names': [ 'error', 'as-needed' ],
-    'function-paren-newline': [ 'error', 'multiline-arguments' ],
+    'function-paren-newline': [ 'error', 'consistent' ],
     'guard-for-in': [ 'warn' ],
     'global-require': [ 'error' ],
     'handle-callback-err': [ 'error' ],
